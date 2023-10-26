@@ -40,5 +40,11 @@ public class Main {
         System.out.println("За 3 дня машина произвела "+performance3day+" штук бутылок");
         System.out.println("За 1 месяц машина произвела "+performance1month+" штук бутылок");
         //Задача 5
+        int naOdinClass = 4+2;
+        int classov = 120/naOdinClass;
+        int beloi = classov*2;
+        int korichnevoi = classov*4;
+        System.out.println("В школе, где "+classov+" классов, нужно "+beloi+" банок белой краски и "+korichnevoi+" банок коричневой краски");
+        //Задача 6
     }
 }
