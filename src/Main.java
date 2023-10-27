@@ -28,23 +28,33 @@ public class Main {
         int paperNumber = 480;
         int studentsNumber = LP + AS + EA;
         paperNumber = paperNumber/studentsNumber;
-        System.out.println("На каждого ученика рассчитано "+paperNumber+" листов бумаги");
+        System.out.println("На каждого ученика рассчитано "+paperNumber+" листов бумаги.");
         //Задача 4
         int performance1min = 16/2;
         int performance20 = performance1min*20;
         int performance24h = performance1min*24*60;
         int performance3day = performance1min*60*24*3;
         int performance1month = performance1min*60*24*30;
-        System.out.println("За 20 минут машина произвела "+performance20+" штук бутылок");
-        System.out.println("За сутки машина произвела "+performance24h+" штук бутылок");
-        System.out.println("За 3 дня машина произвела "+performance3day+" штук бутылок");
-        System.out.println("За 1 месяц машина произвела "+performance1month+" штук бутылок");
+        System.out.println("За 20 минут машина произвела "+performance20+" штук бутылок.");
+        System.out.println("За сутки машина произвела "+performance24h+" штук бутылок.");
+        System.out.println("За 3 дня машина произвела "+performance3day+" штук бутылок.");
+        System.out.println("За 1 месяц машина произвела "+performance1month+" штук бутылок.");
         //Задача 5
         int naOdinClass = 4+2;
         int classov = 120/naOdinClass;
         int beloi = classov*2;
         int korichnevoi = classov*4;
-        System.out.println("В школе, где "+classov+" классов, нужно "+beloi+" банок белой краски и "+korichnevoi+" банок коричневой краски");
+        System.out.println("В школе, где "+classov+" классов, нужно "+beloi+" банок белой краски и "+korichnevoi+" банок коричневой краски.");
         //Задача 6
+        int bananas = 5*80;
+        int milk = 2*105;
+        int iceCream = 2*100;
+        int eggs = 4*70;
+        int vesVsego = bananas + milk + iceCream + eggs;
+        System.out.println("Вес спорт-завтрака в граммах: "+vesVsego);
+        float vesVKg = vesVsego * 0.001f;
+        System.out.println("Вес спорт-завтрака в килограммах: "+vesVKg);
+        //Задача 7
+
     }
 }
