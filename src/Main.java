@@ -55,6 +55,28 @@ public class Main {
         float vesVKg = vesVsego * 0.001f;
         System.out.println("Вес спорт-завтрака в килограммах: "+vesVKg);
         //Задача 7
-
+        int dneiNaPohudenie250 = 7*1000/250;
+        int dneiNaPohudenie500 = 7*1000/500;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то на похудение потребуется "+dneiNaPohudenie250+" дней");
+        System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то на похудение потребуется "+dneiNaPohudenie500+" дней");
+        float dneiNaPohudenieVSrednem = (250+500)/2f;
+        dneiNaPohudenieVSrednem = 7*1000/dneiNaPohudenieVSrednem;
+        System.out.println("В среднем может потребоваться "+dneiNaPohudenieVSrednem+" дней.");
+        //Задача 8
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kristina = 76230;
+        int Masha10 = Masha/10;
+        int newMasha = Masha + Masha10;
+        int Denis10 = Denis/10;
+        int newDenis = Denis + Denis10;
+        int Kristina10 = Kristina/10;
+        int newKristina = Kristina + Kristina10;
+        int yearMasha = newMasha*12 - Masha*12;
+        int yearDenis = newDenis*12 - Denis*12;
+        int yearKristina = newKristina*12 - Kristina*12;
+        System.out.println("Маша теперь получает "+newMasha+" рублей в месяц; годовой доход вырос на "+yearMasha+" рублей.");
+        System.out.println("Денис теперь получает "+newDenis+" рублей в месяц; годовой доход вырос на "+yearDenis+" рублей.");
+        System.out.println("Кристина теперь получает "+newKristina+" рублей в месяц; годовой доход вырос на "+yearKristina+" рублей.");
     }
 }
